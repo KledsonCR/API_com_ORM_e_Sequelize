@@ -12,6 +12,6 @@ app.get('/teste', (req, res) => res
   .send({ mensagem: 'teste de api'
 }))
 
-app.listen(port, () => console.log(`api rodando na porta: ${port}`))
+app.listen(port, () => console.log(`Api rodando na porta: ${port}`))
 
 module.exports = app
